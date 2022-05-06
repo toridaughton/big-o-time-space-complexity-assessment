@@ -32,7 +32,7 @@
 //     return (str.match(regex) || []).length === 26
 //     }
 // console.log(pangram("The quick brown fox jumps over the lazy dog!"))
-// In this format, I believe this would be O(1) checking against a constant number
+// In this format, I believe this would be O(n) because while it is comparing against a constant number (26) my understanding is that match is looping through the string to check if it matches regex.
 
 
 // const findLongestWord = (arr) => {
